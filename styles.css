@@ -388,18 +388,18 @@ background-size: cover;
     }
     
     .stand-out{
-        background: url("./images/mobile/image-stand-out.jpg"); background-size: cover;
+        background: url("./images/mobile/image-stand-out.jpg"); background-size: cover; background-position: center;
     }
 
     .two-fruits{
         background: url("./images/mobile/image-graphic-design.jpg");
-        height: 800px; background-size: cover;
-        
+        height: 800px; background-size: cover; 
+        background-position: center;
     }
 
     .orange-bkg{
         background: url("./images/mobile/image-photography.jpg");
-        height: 700px; background-size: cover;
+        height: 700px; background-size: cover; background-position: center;
     }
 
     .content-wrapper{
