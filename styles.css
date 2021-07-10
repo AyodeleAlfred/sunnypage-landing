@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    font-family: 'STIX Two Math', serif;
+}
+
+.header{
+    background: url("./images/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 850px;
+    color: white;
+    padding: 1em 1.5em;
+    background-attachment: fixed;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    text-transform: lowercase;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-left: 1em;
+}
+
+.nav-toggle{
+    display: none;
+}
+
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links li{
+    margin: 0 1em;
+}
+
+.nav-links a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: white;
+}
+
+.nav-links button{
+    margin-left: 1em;
+    font-size: 1.5rem;
+    color: white;
+    padding: .5em 1em;
+    background-color:transparent;
+    border: transparent;
+    border-radius: 40px;
+    transition: all .3s linear;
+}
+
+.nav-links button:hover{
+    background-color:white;
+    color: black;
+}
+
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.gallery,
+.gallery-2,
+.gallery-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-section{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    width: 70%;
+}
+
+.message h2{
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+}
+
+.message p{
+    margin-bottom: 1em; 
+    margin-top: 0; 
+    font-size: 1.5rem;
+}
+
+.message a{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid yellow;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    transition: all .3s;
+}
+
+.gallery-section a:hover{
+    border-bottom: 10px solid yellow;
+}
+
+.gallery-section .pink-btn{
+    border-bottom: 3px solid pink;
+}
+
+.gallery-section .pink-btn:hover{
+    border-bottom: 10px solid pink;
+}
+
+.egg-pic{
+    background: url("./images/desktop/image-transform.jpg");
+    background-position: 50% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stand-out{
+    background: url("./images/desktop/image-stand-out.jpg");
+    background-position: 50% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two-fruits{
+    background: url("./images/desktop/image-graphic-design.jpg");
+    background-position: 50% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.orange-bkg{
+    background: url("./images/desktop/image-photography.jpg");
+    background-position: 50% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-wrapper{
+    position: relative;
+    top: 20%;
+    left: 0;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.content-wrapper h3{
+    margin-bottom: 1em;
+    font-size: 2rem;
+}
+
+.content-wrapper p{
+    font-size: 1.5rem;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+    margin-bottom:2em ;
+}
+
+.testimonials h3{
+    font-size: 1rem;
+    color: gray;
+    letter-spacing: 5px;
+    word-spacing: 4px;
+    text-transform: uppercase;
+    margin: 3em auto 2em;
+}
+
+.testimony-content{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    /* margin: 0 2em; */
+}
+
+.testimony{
+    width: 33%;
+    padding: 1em;
+}
+
+.testimony img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.testimony p{
+    line-height: 25px;
+    margin: 2em 0;
+}
+
+.testimony h4{
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin: .5em;
+    padding: 0;
+} 
+
+.testimony .title{
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    font-size: .86rem;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer-pictures{
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.milkbottle{
+    background: url("./images/desktop/image-gallery-milkbottles.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:25%;
+}
+
+.gallery-orange{
+    background: url("./images/desktop/image-gallery-orange.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:25%;   
+}
+
+.gallery-cone{
+    background: url("./images/desktop/image-gallery-cone.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:25%;
+}
+
+.sugarcubes{
+    background: url("./images/desktop/image-gallery-sugarcubes.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:25%;
+}
+
+.footer-details{
+    background: rgba(3, 150, 150, 0.185);
+    height: 300px;
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+.footer-details h2{
+    font-size: 2rem;
+    margin: 1em;
+    font-weight: bolder;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links a{
+    padding: 0 2em 3em 2em;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+}
+
+.footer-links a:hover{
+    color: white;
+}
+
+.footer-icons .icon{
+    display: inline-block;
+    padding: 1em;
+    color: black;
+    transition: all 0.3s;
+}
+
+.footer-icons .icon:hover{
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .header{
+        width: 100%;
+        height: 900px;
+        background: url("./images/mobile/image-header.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        color: white;
+        padding: 1em 1.5em;
+    
+    }
+
+    nav{
+        padding: 1em 1em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header{
+        color: white;
+        text-transform: lowercase;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .gallery,
+    .gallery-2,
+    .gallery-3{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    }
+    .gallery-section{
+    width: 100%;
+    height: 600px;
+    }
+
+    .egg-pic{
+        display: flex;
+        background: url("./images/mobile/image-transform.jpg");
+        order: 1;
+    }
+    
+    .stand-out{
+        background: url("./images/mobile/image-stand-out.jpg");
+    }
+
+    .two-fruits{
+        background: url("./images/mobile/image-graphic-design.jpg");
+        height: 1000px;
+        
+    }
+
+    .orange-bkg{
+        background: url("./images/mobile/image-photography.jpg");
+        height: 1000px;
+    }
+
+    .content-wrapper{
+        position: relative;
+        top: 30%;
+        left: 0;
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .testimony-content{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimony{
+        width: 60%;
+        margin: 2em;
+        padding-bottom: 2em;
+        border: 1px solid rgb(226, 217, 217);
+        border-radius: 10px;
+    }
+}
