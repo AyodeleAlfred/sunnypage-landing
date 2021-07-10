@@ -334,7 +334,7 @@ h1{
         height: 900px;
         background: url("./images/mobile/image-header.jpg");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         color: white;
         padding: 1em 1.5em;
@@ -379,21 +379,22 @@ h1{
         display: flex;
         background: url("./images/mobile/image-transform.jpg");
         order: 1;
+background-size: cover;
     }
     
     .stand-out{
-        background: url("./images/mobile/image-stand-out.jpg");
+        background: url("./images/mobile/image-stand-out.jpg"); background-size: cover;
     }
 
     .two-fruits{
         background: url("./images/mobile/image-graphic-design.jpg");
-        height: 1000px;
+        height: 1000px; background-size: cover;
         
     }
 
     .orange-bkg{
         background: url("./images/mobile/image-photography.jpg");
-        height: 1000px;
+        height: 1000px; background-size: cover;
     }
 
     .content-wrapper{
