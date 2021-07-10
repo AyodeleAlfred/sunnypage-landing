@@ -383,7 +383,7 @@ h1{
     .egg-pic{
         display: flex;
         background: url("./images/mobile/image-transform.jpg");
-        order: 1;
+        order: 1; background-position: center;
 background-size: cover;
     }
     
