@@ -392,7 +392,7 @@ h1{
 
      .nav-link-container{
          max-width: 500px;
-         display: flex;
+         display: none;
          flex-direction: column;
         height: auto;
         z-index: 999;
@@ -401,7 +401,7 @@ h1{
     }
 
     .hide-nav-link{
-        display: none;
+        display: block;
     }
 
     .nav-links ul{
