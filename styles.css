@@ -375,7 +375,7 @@ h1{
 
      .nav-toggle img:hover{
          transition: all .3s;
-         transform: rotate(-90deg);
+         transform: rotate(-180deg);
      }
 
      @keyframes bounce {
