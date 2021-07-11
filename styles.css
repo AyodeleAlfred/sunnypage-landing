@@ -23,6 +23,7 @@
     padding: 1em 1.5em;
     background-attachment: fixed;
 }
+
 nav{
     width: 100%;
     display: flex;
@@ -37,7 +38,7 @@ header{
     margin-left: 1em;
 }
 
-.nav-toggle{
+.btn-toggle{
     display: none;
 }
 
@@ -338,11 +339,16 @@ h1{
         background-position: center;
         color: white;
         padding: 1em 1.5em;
-    
     }
 
     nav{
+        display: block;
         padding: 1em 1em;
+        flex-direction: row;
+    }
+
+    .logo-header{
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -355,14 +361,78 @@ h1{
         font-size: 1.5rem;
         margin-left:0;
     }
+    
+    .logo-header button{
+        background: transparent;
+        border: transparent;
+    }
 
-    .nav-links{
+    .btn-toggle{
+      display: block;
+      animation: bounce 2s ease-in-out infinite;
+      transition: all 0.3s linear;
+     }
+
+     .nav-toggle img:hover{
+         transition: all .3s;
+         transform: rotate(-90deg);
+     }
+
+     @keyframes bounce {
+         0%{
+             transform: scale(1);
+         }
+         50%{
+             transform: scale(1.3);
+         }
+         100%{
+             transform: scale(1);
+         }
+     }
+
+     .nav-link-container{
+         max-width: 500px;
+         display: flex;
+         flex-direction: column;
+        height: auto;
+        z-index: 999;
+        margin: 0 auto;
+        /* display: none; */
+    }
+
+    .hide-nav-link{
         display: none;
     }
 
-    .nav-toggle{
-      display: block;
-     }
+    .nav-links ul{
+        width: 100%;
+        height: auto;
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        background: white;
+        margin-top: 2em;
+        padding: 1em;
+        border-radius: 10px;
+    }
+
+    .nav-links li{
+        margin: .5em 0;
+    }
+
+    .nav-links a{
+        display: inline-block;
+        color: tomato;
+        padding: .5em 1em;
+        border-radius: 30px;
+        border-top-right-radius: 0;
+    }
+
+    .nav-links a:hover{
+        background: orange;
+        color: white;
+    }
 
     h1{
         font-size: 2rem;
@@ -424,5 +494,22 @@ background-size: cover;
         padding-bottom: 2em;
         border: 1px solid rgb(226, 217, 217);
         border-radius: 10px;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    .footer-pictures{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+
+    .milkbottle,
+    .gallery-orange,
+    .gallery-cone,
+    .sugarcubes{
+        width: 100%;
     }
 }
