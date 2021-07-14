@@ -438,13 +438,20 @@ h1{
         font-size: 2rem;
     }
 
-    .gallery,
+    .gallery{
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    }
+
     .gallery-2,
     .gallery-3{
     flex-direction: column;
     width: 100%;
     height: 100%;
     }
+
+    
     .gallery-section{
     width: 100%;
     height: 550px;
